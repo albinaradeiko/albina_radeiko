@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ТРЕШ</title>
+
+    <link rel="stylesheet" href="trash-css/reset-style.css">
+    <link rel="stylesheet" href="trash-css/main-style.css">
+    <link rel="stylesheet" href="trash-css/top-menu.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<script>
+
+    let menuOpen = false;
+
+    function openMenu() {
+
+        let menu = document.getElementById('sideMenu');
+
+        if (menuOpen) {
+
+            menu.style.left = '-260px';
+
+            menuOpen = false;
+        }
+
+        else {
+
+            menu.style.left = '0';
+
+            menuOpen = true;
+        }
+    }
+
+</script>
+
+<body>
+    <header class="header">
+
+
+        <div class="about">
+            про нас
+        </div>
+
+        <div class="search">
+            ⌕
+        </div>
+
+    </header>
+
+
+
+
+
+
+    <section class="hero">
+
+        <div class="hero-overlay">
+
+            <h1 class="main-title">ТРЕШ</h1>
+
+            <p>Тут точно буде треееееш</p>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="cards-section" id="what-trash">
+
+        <h2 class="section-title">Що таке ТРЕШ?</h2>
+
+        <div class="cards">
+
+
+
+            <div class="card">
+
+                <img src="trash-img/cat.jpg" alt="cat">
+
+                <div class="card-bottom">
+                    Де з'явився ТРЕШ?
+                </div>
+
+            </div>
+
+
+
+
+            <div class="card">
+
+                <img src="trash-img/cat.jpg" alt="cat">
+
+                <div class="card-bottom">
+                    Де трешують?
+                </div>
+
+            </div>
+
+
+
+
+            <div class="card">
+
+                <img src="trash-img/cat.jpg" alt="cat">
+
+                <div class="card-bottom">
+                    Хто трешує?
+                </div>
+
+            </div>
+
+
+
+            <button class="main-button" onclick="location.href='#details'">
+                Детальніше
+            </button>
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <div class="info-block" id="details">
+
+        <div class="text">
+
+            <h3>Де з'явився ТРЕШ?</h3>
+
+            <p>
+                Треш з’явився не в одному конкретному місці — це
+                швидше природний побічний ефект людської творчості.
+                Спочатку він виник у молодіжному сленгу як слово
+                для опису чогось надто дивного, хаотичного або «занадто,
+                щоб бути нормою». Поступово термін перекочував
+                у соцмережі, меми та повсякденні розмови, де став
+                позначати ситуації, що виходять за рамки звичного.
+                Фактично треш народився там, де люди зіткнулися з
+                абсурдом і вирішили: «О, так це ж треш!»
+            </p>
+
+        </div>
+
+
+        <div class="image">
+            <img src="trash-img/devil.png" alt="devil">
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="info-block reverse">
+
+        <div class="image">
+            <img src="trash-img/green.png" alt="green">
+        </div>
+
+
+        <div class="text right-block">
+            <h3>Де трешують?</h3>
+
+            <p>
+                Трешують у будь-яких місцях, де реальність трохи
+                «ламає сценарій». Це може бути інтернет — особливо
+                коментарі, чати та раптові вірусні відео. Трешують у
+                компаніях друзів, коли плани змінюються десять разів
+                за вечір. На роботі, коли дедлайн був «вчора». У
+                транспорті, коли всі ніби зійшлися, щоб створити один
+                великий серіал у реальному часі. Треш може з’явитися
+                в будь-якому середовищі, де люди, емоції й несподівані
+                ситуації перетинаються надто тісно.
+            </p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+    <div class="info-block">
+
+        <div class="text">
+
+            <h3>Хто трешує?</h3>
+
+            <p>
+                Трешують ті, хто дозволяє собі діяти спонтанно або
+                чия реальність виходить з-під контролю. Це можуть бути
+                друзі, які надто захоплюються ідеєю; люди, що потрапили
+                в незручні або комічні ситуації; автори контенту, котрі не
+                бояться експериментувати. Інколи трешують випадково,
+                достатньо просто сказати щось дивне в незручний
+                момент. А інколи — навмисно, щоб розвеселити інших або
+                додати драйву. І так, іноді трешує кожен із нас, просто не
+                завжди в цьому зізнається.
+            </p>
+
+        </div>
+
+
+        <div class="image skull">
+            <img src="trash-img/skull.png" alt="skull">
+        </div>
+
+    </div>
+
+
+
+
+
+
+    <div class="join">
+
+        <button class="join-button">
+            приєднатись
+        </button>
+
+    </div>
+
+    </section>
+
+    <footer class="bottom-strip"></footer>
+
+
+    <div id="popup" class="popup hidden">
+        <div class="popup-box">
+            Тепер ти трешуєш з нами!!!
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const btn = document.querySelector(".join-button");
+            const popup = document.getElementById("popup");
+
+            btn.addEventListener("click", () => {
+                popup.classList.remove("hidden");
+            });
+
+            popup.addEventListener("click", (e) => {
+                if (e.target === popup) {
+                    popup.classList.add("hidden");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        window.onload = () => {
+            if (window.location.hash) {
+                history.replaceState("", document.title, window.location.pathname);
+            }
+        };
+    </script>
+
+</body>
+
+</html>
